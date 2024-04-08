@@ -1,0 +1,20 @@
+@use '../../assets/scss/variables' as *; 
+@use '../../assets/scss/mixin' as *; 
+@use '../../assets/scss/progress-bar' as *; 
+
+main {
+  padding-top: $spacing-vsmall;
+  display: flex;
+	justify-content: center;
+  align-items: center;
+
+  .form-wrapper {
+    margin: $spacing-small $spacing-medium $spacing-medium $spacing-medium;
+    padding: $spacing-medium $spacing-xlarge;
+    background-color: $third-color;
+    border-radius: $border-radius-large;
+    box-shadow: 2px 2px 10px $primary-color;
+    width: clamp(320px, 50%, $breakpoint1);
+  }
+
+}

@@ -1,0 +1,7 @@
+@use "./variables" as *;
+
+@mixin font-template($f-size, $f-weight, $f-spacing) {
+    font-size: $f-size;
+    font-weight: $f-weight;
+    padding-bottom: $f-spacing;
+}
